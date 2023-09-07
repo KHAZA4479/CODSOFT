@@ -6,7 +6,7 @@ public class CurrencyConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Define exchange rates (base currency is USD)
+       
         Map<String, Double> exchangeRates = createExchangeRates();
         Map<String, String> currencyNames = createCurrencyNames();
 
@@ -36,7 +36,7 @@ public class CurrencyConverter {
                 break;
             } else {
                 System.out.println("Invalid input. Please enter a valid amount.");
-                scanner.next(); // Clear the invalid input
+                scanner.next(); 
             }
         }
 
